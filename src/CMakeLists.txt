@@ -5,3 +5,5 @@ target_sources(
      PRIVATE
           main.cpp
 )
+
+add_subdirectory("module")

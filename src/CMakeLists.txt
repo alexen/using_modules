@@ -5,5 +5,10 @@ target_sources(
      PRIVATE
           main.cpp
 )
+target_link_libraries(
+     ${THIS}
+     PRIVATE
+          Boost::filesystem
+)
 
 add_subdirectory("module")
